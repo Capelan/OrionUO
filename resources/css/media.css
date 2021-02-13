@@ -1,0 +1,41 @@
+/* Экстрамалые девайсы («телефоны», < 576px)*/
+/* Нет @media, т.к. это по умолчанию в Bootstrap*/
+
+/** Малые девайсы («ландшафтные телефоны», >= 576px)**/
+@media screen and  (max-width: 576px) {
+	.logo {
+		display: none;
+	}
+	.flex-cont {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: flex-start;
+		width: 100%;
+	}
+}
+/* Средние девайсы («таблетки», >= 768px)*/
+@media (min-width: 577px) and  (max-width: 768px) {
+	.logo {
+		display: block;
+	}
+	.flex-cont {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: flex-start;
+		width: 100%;
+	}
+}
+
+/* Большие девайсы (десктопы, >= 992px)*/
+@media (min-width: 769px) and  (max-width: 992px) { ... }
+
+
+
+
+
+
+
+/* Экстрабольшие девайсы (большие десктопы, >= 1200px)*/
+@media (min-width: 993px) and  (max-width: 1200px) { ... }
